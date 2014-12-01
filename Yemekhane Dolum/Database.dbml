@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Online Dolum" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=&quot;|DataDirectory|\Online Dolum.mdf&quot;;Integrated Security=True" SettingsObjectName="Yemekhane_Dolum.Properties.Settings" SettingsPropertyName="Online_DolumConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MENU" Member="MENU">
+    <Type Name="MENU">
+      <Column Name="ogunNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="yemekNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="OGUN_MENU" Member="OGUN" ThisKey="ogunNO" OtherKey="ogunNO" Type="OGUN" IsForeignKey="true" />
+      <Association Name="YEMEK_MENU" Member="YEMEK" ThisKey="yemekNO" OtherKey="yemekNO" Type="YEMEK" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OGUN" Member="OGUN">
+    <Type Name="OGUN">
+      <Column Name="ogunNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tarih" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ogunTuru" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="OGUN_MENU" Member="MENU" ThisKey="ogunNO" OtherKey="ogunNO" Type="MENU" />
+      <Association Name="OGUN_YEMEKALAN" Member="YEMEKALAN" ThisKey="ogunNO" OtherKey="ogunNO" Type="YEMEKALAN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.YEMEK" Member="YEMEK">
+    <Type Name="YEMEK">
+      <Column Name="yemekNO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="yemekAdi" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="ogunTur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="YEMEK_MENU" Member="MENU" ThisKey="yemekNO" OtherKey="yemekNO" Type="MENU" />
+    </Type>
+  </Table>
+  <Table Name="dbo.YEMEKALAN" Member="YEMEKALAN">
+    <Type Name="YEMEKALAN">
+      <Column Name="ogrNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ogunNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="OGUN_YEMEKALAN" Member="OGUN" ThisKey="ogunNO" OtherKey="ogunNO" Type="OGUN" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

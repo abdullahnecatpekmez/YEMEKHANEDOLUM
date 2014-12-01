@@ -1,0 +1,13 @@
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\bin\Debug\Yemekhane Dolum.exe
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\bin\Debug\Yemekhane Dolum.pdb
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane Dolum.csprojResolveAssemblyReference.cache
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane_Dolum.Yükleniyor.resources
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane_Dolum.Properties.Resources.resources
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane Dolum.csproj.GenerateResource.Cache
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane Dolum.exe
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane Dolum.pdb
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane_Dolum.Giriş.resources
+c:\users\muhammed\documents\visual studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\obj\Debug\Yemekhane_Dolum.Ana_Menü.resources
+C:\Users\Muhammed\Documents\Visual Studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\bin\Debug\Online Dolum.mdf
+C:\Users\Muhammed\Documents\Visual Studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\bin\Debug\Online Dolum_log.ldf
+C:\Users\Muhammed\Documents\Visual Studio 2013\Projects\Yemekhane Dolum\Yemekhane Dolum\bin\Debug\Yemekhane Dolum.exe.config
